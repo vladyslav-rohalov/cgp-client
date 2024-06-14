@@ -1,1 +1,1 @@
-# clg-client
+# cgp-client
