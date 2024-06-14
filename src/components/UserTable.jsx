@@ -113,10 +113,6 @@ const UserTable = () => {
                         <Typography>{user.name}</Typography>
                       </AccordionSummary>
                       <AccordionDetails>
-                        <Typography>City: {user.city}</Typography>
-                        <Typography>
-                          Images Count: {user.images_count}
-                        </Typography>
                         <div>
                           {user.images.map((image) => {
                             const imageUrl = image.startsWith("http")
